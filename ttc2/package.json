@@ -1,0 +1,44 @@
+{
+  "name": "ttc2",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "25.0.0",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "crypto-js": "^3.1.9-1",
+    "expo": "^25.0.0",
+    "geolib": "^2.0.24",
+    "jsrsasign": "^8.0.8",
+    "moment": "^2.21.0",
+    "native-base": "^2.3.9",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-base": "^1.1.0",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-keep-awake": "^3.0.1",
+    "react-native-material-dropdown": "^0.11.0",
+    "react-native-root-toast": "^3.0.1",
+    "react-native-sound": "^0.10.9",
+    "react-native-ui-lib": "^3.3.32",
+    "react-native-vector-icons": "^4.5.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "license": "MIT"
+}
